@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class HomeScreenController {
+-Stage stage
+-Scene scene
+-Parent root
++Button addList
++Label welcomeText
++MenuItem saveLists
++MenuItem loadLists
++FileChooser fileChooser
++continueToTaskListScreen(ActionEvent actionEvent)
++saveButtonClicked(ActionEvent actionEvent)
++loadButtonClicked(ActionEvent actionEvent)
+}
+
+@enduml

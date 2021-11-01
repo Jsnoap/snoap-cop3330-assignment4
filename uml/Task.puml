@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Task {
+-LocalDate date;
+-String description;
++toString()
++getDate()
++setDate(LocalDate date)
++getDescription()
++setDescription(String description)
+}
+
+@enduml
